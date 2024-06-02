@@ -1,0 +1,6 @@
+@Quartz.Cronjob_HostAddress = http://localhost:5143
+
+GET {{Quartz.Cronjob_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
