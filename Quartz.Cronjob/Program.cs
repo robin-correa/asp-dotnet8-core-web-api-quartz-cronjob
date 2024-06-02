@@ -41,7 +41,7 @@ builder.Services.AddQuartz(opts =>
     {
         trigger.ForJob(cronjob2Key) // Identify by job name
             .WithIdentity("Cronjob2-trigger")
-            .WithCronSchedule("0 0/1 * 1/1 * ? *"); // Set your desired cron expression
+            .WithCronSchedule("0 0/2 * 1/1 * ? *"); // Set your desired cron expression
     });
 });
 

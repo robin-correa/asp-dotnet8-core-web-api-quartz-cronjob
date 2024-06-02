@@ -5,7 +5,7 @@
         public async Task Execute(IJobExecutionContext context)
         {
             // Your job logic here
-            Console.WriteLine("[Cronjob1] Your cron job successfully executed!");
+            Console.WriteLine("[Cronjob1] Your cron job successfully executed! - Every 1 minute");
         }
     }
 }
